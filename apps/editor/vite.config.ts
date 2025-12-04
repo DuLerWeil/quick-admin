@@ -22,7 +22,8 @@ export default defineConfig(({ mode }) => {
         },
         '/magic': {
           target: env.VITE_BASE,
-          changeOrigin: true
+          changeOrigin: true,
+          ws: true
         }
       }
     }
